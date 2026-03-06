@@ -42,6 +42,7 @@ const sidebars = {
       label: "Guardrails",
       items: [
         "proxy/guardrails/quick_start",
+        "proxy/guardrails/team_based_guardrails",
         "proxy/guardrails/guardrail_load_balancing",
         "proxy/guardrails/test_playground",
         "proxy/guardrails/litellm_content_filter",
@@ -607,6 +608,7 @@ const sidebars = {
           items: [
             "mcp",
             "mcp_usage",
+            "mcp_openapi",
             "mcp_oauth",
             "mcp_public_internet",
             "mcp_semantic_filter",
@@ -622,6 +624,7 @@ const sidebars = {
           items: [
             "anthropic_unified/index",
             "anthropic_unified/structured_output",
+            "anthropic_unified/messages_to_responses_mapping",
           ]
         },
         "anthropic_count_tokens",
@@ -793,6 +796,7 @@ const sidebars = {
             "providers/bedrock_realtime_with_audio",
             "providers/aws_polly",
             "providers/bedrock_vector_store",
+            "providers/bedrock_mantle",
           ]
         },
         "providers/litellm_proxy",
